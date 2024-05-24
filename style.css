@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10px;
+}
+
+p {
+    color: rgb(97, 44, 44);
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(193, 224, 13));
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 9px;
+}
